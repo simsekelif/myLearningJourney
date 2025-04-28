@@ -3,7 +3,7 @@ userName ? console.log(`Hello ${userName}!`) : console.log("Hello Stranger!");
 
 let userQuestion = "Is Amsterdam a good call for a short trip?";
 
-console.log(`Here is the question: $userQuestion`);
+console.log(`Here is the question: ${userQuestion}`);
 
 let randomNumber = Math.floor(Math.random() * 8);
 
